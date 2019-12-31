@@ -1,6 +1,6 @@
-#File rouge - Check&Go
+# Projet fil rouge - Check&Go
 
-#Description du projet :
+## Description du projet :
 Il s'agit de réaliser une application web de vérification du contenu de son sac de voyage. Cette application doit être accessible via un site web et via mobile en déconnecté.
 
 **V1 :** L'application propose une check liste permettant de vérifier que l'on a tout pristout ce qui est nécessaire pour son voyage. L'utilisateur peut alors "cocher"  ce qu'il a déjà pris et voir ce qui lui manque.
