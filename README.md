@@ -39,10 +39,10 @@ Si une base de données est déjà présentes, la supprimer.
 Si les models ont été modifiés, lancer la commande : `$ python manage.py makemigrations`  
 Initialiser la base de données : `$ python manage.py migrate`, puis recréer un superutilisateur comme indiqué précédemment.  
 ## Importation de données depuis un fichier
-Se placer dans le dossier contenant le fichier `$ tasks.py`  
+Se placer dans le dossier contenant le fichier `tasks.py`  
 Lancer la commande en remplacant file_name par le chemin du fichier (placé dans le dossier data) :  
 `$ invoke importtable file_name`
 
 ## Utilisation de l'API
-Le endpoint pour les catégories est (url base api)/api/categories/
-Le endpoint pour les items est (url base api)/api/items/
+Le endpoint pour les catégories est : `(url base api)/api/categories/`  
+Le endpoint pour les items est : `(url base api)/api/items/`
