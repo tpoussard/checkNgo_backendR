@@ -13,9 +13,9 @@ V1.+.+:
 **V3 :** L'application pose à l'utilisateur quelques (2 ou 3) question pour limiter la check liste à ce qui semble nécessaire. Ex : Allez-vous à l'étranger ? Y a t'il des moustiques là ou vous allez ? ...
 
 **V4 :** D'autres check list peuvent être rajoutées comme:
-* une liste de course ou
-* une liste pour préparer une rando pédestre ou cycle
-* une liste des choses à faire pour un mariage ...
+* une liste de course
+* une liste pour préparer une rando pédestre ou cycliste
+* une liste de choses à faire pour un mariage ...
 
 La version actuelle est la V1.
 
@@ -35,12 +35,12 @@ Créer un superutilisateur pour avoir accès au fonctionnalités d'administratio
 Lancer le serveur local et suivre le lien depuis le terminal pour accéder à l'interface administrateur:  
 `$ python manage.py runserver`
 ## Modification du modèle de base de données
-Si une base de données est déjà présentes, la supprimer.  
+Si une base de données est déjà présente, la supprimer.  
 Si les models ont été modifiés, lancer la commande : `$ python manage.py makemigrations`  
 Initialiser la base de données : `$ python manage.py migrate`, puis recréer un superutilisateur comme indiqué précédemment.  
 ## Importation de données depuis un fichier
 Se placer dans le dossier contenant le fichier `tasks.py`  
-Lancer la commande en remplacant file_name par le chemin du fichier (placé dans le dossier data) :  
+Lancer la commande suivante en remplacant file_name par le chemin du fichier (situé dans le dossier data) :  
 `$ invoke importtable file_name`
 
 ## Utilisation de l'API
