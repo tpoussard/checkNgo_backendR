@@ -22,7 +22,7 @@ def importtable(ctx, file_name):
 
     import json
     i = 0
-    with open(os.path.join('data', file_name + '.json'), 'r') as json_data:
+    with open(file_name, 'r') as json_data:
         file = json.load(json_data)
     for key, value in file.items():
         for obj_list in value:
